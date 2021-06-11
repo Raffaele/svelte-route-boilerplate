@@ -1,13 +1,13 @@
 var ghpages = require('gh-pages');
 
 ghpages.publish(
-    'public', // path to public directory
+    'public',
     {
         branch: 'gh-pages',
-        repo: 'https://github.com/username/yourproject.git', // Update to point to your repository  
+        repo: 'https://github.com/Raffaele/svelte-route-boilerplate',
         user: {
-            name: 'Your name', // update to use your name
-            email: 'Your Email address' // Update to use your email
+            name: 'Raffaele',
+            email: 'mori.raffaele@gmail.com'
         }
     },
     () => {
