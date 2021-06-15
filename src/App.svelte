@@ -33,9 +33,9 @@
 		<h1>Hello Router</h1>
 		<nav>
 			<Link to="/">Home</Link>
-			<Link to="/details">About</Link>
-			<Link to="/product/1">Product 1</Link>
-			<Link to="/product/2">Product 2</Link>
+			<Link to="./details">About</Link>
+			<Link to="./product/1">Product 1</Link>
+			<Link to="./product/2">Product 2</Link>
 		</nav>
 	</header>
 
